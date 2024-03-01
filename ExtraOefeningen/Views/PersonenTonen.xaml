@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:ExtraOefeningen.ViewModels"
+             xmlns:model="clr-namespace:ExtraOefeningen.Models"
+             x:DataType="viewmodel:PersonenTonenViewModel"
+             x:Class="ExtraOefeningen.Views.PersonenTonen">
+    <VerticalStackLayout Spacing="10">
+        <Label Text="Personen" Margin="0, 0, 0, 20"></Label>
+        <CollectionView ItemsSource="{Binding Personen}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Persoon">
+                    <VerticalStackLayout>
+                        <Label Text="{Binding Voornaam, StringFormat='Voornaam: {0}'}"></Label>
+                        <Label Text="{Binding Geboortedatum, StringFormat='Geboortedatum: {0:d}'}" 
+                               Margin="0, 0, 0, 10"></Label>
+                    </VerticalStackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Label>
+            <Label.Text>
+                <MultiBinding StringFormat="Het aantal personen is {0} en de gemiddelde leeftijd is {1}">
+                    <Binding Path="Personen.Count"></Binding>
+                    <Binding Path="AverageAge"></Binding>
+                </MultiBinding>
+            </Label.Text>
+        </Label>
+        
+    </VerticalStackLayout>
+</ContentPage>

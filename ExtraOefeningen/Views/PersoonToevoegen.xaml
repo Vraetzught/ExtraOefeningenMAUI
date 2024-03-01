@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:ExtraOefeningen.ViewModels"
+             x:DataType="viewmodel:PersoonToevoegenViewModel"
+             x:Class="ExtraOefeningen.Views.PersoonToevoegen">
+    <VerticalStackLayout Spacing="10">
+        <HorizontalStackLayout Spacing="10">
+            <Label HorizontalOptions="Center" Text="Voornaam: "></Label>
+            <Entry Text="{Binding NewPersoon.Voornaam}"></Entry>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Spacing="10">
+            <Label HorizontalOptions="Center" Text="Geboortedatum: "></Label>
+            <DatePicker Date="{Binding NewPersoon.Geboortedatum}"></DatePicker>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Spacing="10">
+            <Button Text="Toevoegen" Command="{Binding PersoonToevoegenCommand}" WidthRequest="300"></Button>
+            <Button Text="Tonen" Command="{Binding PersonenTonenCommand}" WidthRequest="300"></Button>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

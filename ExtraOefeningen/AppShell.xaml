@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ExtraOefeningen.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ExtraOefeningen"
+    xmlns:views="clr-namespace:ExtraOefeningen.Views"
+    Shell.FlyoutBehavior="Flyout"
+    Title="ExtraOefeningen">
+
+    <ShellContent
+        Title="GamePage"
+        ContentTemplate="{DataTemplate views:GamePage}"/>
+    
+    <ShellContent
+        Title="Persoon Toevoegen"
+        ContentTemplate="{DataTemplate views:PersoonToevoegen}"/>
+    
+    <ShellContent
+        Title="GetallenDoorgeven1ViewModel"
+        ContentTemplate="{DataTemplate views:GetallenDoorgeven1}"/>
+    
+    <ShellContent
+        Title="Factuur"
+        ContentTemplate="{DataTemplate views:Factuur}"/>
+    
+    <ShellContent
+        Title="Afbeeldingen"
+        ContentTemplate="{DataTemplate views:Afbeelding}"/>
+    
+    <ShellContent
+        Title="Getallenrij"
+        ContentTemplate="{DataTemplate views:GetallenRij}"/>
+    
+    <ShellContent
+        Title="Naam tonen"
+        ContentTemplate="{DataTemplate views:NaamTonen}"/>
+    
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+    
+    
+
+</Shell>

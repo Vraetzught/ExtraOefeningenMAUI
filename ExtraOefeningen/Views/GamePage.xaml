@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExtraOefeningen.Views.GamePage"
+             xmlns:viewmodel="clr-namespace:ExtraOefeningen.ViewModels"
+             xmlns:model="clr-namespace:ExtraOefeningen.Models"
+             x:DataType="viewmodel:GameViewModel"
+             Title="GamePage">
+    <Grid RowDefinitions="*,Auto" ColumnDefinitions="*,*" Margin="10">
+        <CollectionView Grid.Row="0" Grid.Column="0" Grid.RowSpan="2" ItemsSource="{Binding Games}"
+                        SelectedItem="{Binding SelectedGame, Mode=TwoWay}" SelectionMode="Single">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Game">
+                    <Frame>
+                        <StackLayout>
+                            <Label>
+                                <Label.Text>
+                                    <MultiBinding StringFormat="Naam: {0} ({1})">
+                                        <Binding Path="Naam"/>
+                                        <Binding Path="Moeilijkheidsgraad"/>
+                                    </MultiBinding>
+                                </Label.Text>
+                            </Label>
+                            <Label Text="{Binding Uitgever, StringFormat='Uitgever: {0}'}"/>
+                        </StackLayout>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+            <CollectionView.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding CopySelectedGameCommand}"></TapGestureRecognizer>
+            </CollectionView.GestureRecognizers>
+        </CollectionView>
+        <StackLayout Margin="10" Grid.Row="0" Grid.Column="1">
+            <HorizontalStackLayout>
+                <Label Text="Id" WidthRequest="200" VerticalOptions="Center"/>
+                <Entry Text="{Binding Game.Id}"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Naam" WidthRequest="200" VerticalOptions="Center"/>
+                <Entry Text="{Binding Game.Naam}"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Moelijkheidsgraad" WidthRequest="200" VerticalOptions="Center"/>
+                <Slider Value="{Binding Game.Moeilijkheidsgraad}" Minimum="1" Maximum="5" WidthRequest="100"/>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout>
+                <Label Text="Uitgever" WidthRequest="200" VerticalOptions="Center"/>
+                <Entry Text="{Binding Game.Uitgever}"/>
+            </HorizontalStackLayout>
+        </StackLayout>
+        <HorizontalStackLayout Grid.Row="1" Grid.Column="1">
+            <Button Text="Toevoegen" Command="{Binding GameToevoegenCommand}"/>
+            <Button Text="Nieuw game" Command="{Binding VeldenLeegmakenCommand}" Margin="10,0"/>
+        </HorizontalStackLayout>
+
+    </Grid>
+</ContentPage>

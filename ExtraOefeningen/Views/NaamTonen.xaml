@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ExtraOefeningen.Views.NaamTonen"
+             Title="{Binding Title}">
+    
+    <VerticalStackLayout Spacing="10" Margin="10">
+        <HorizontalStackLayout Spacing="10">
+            <Label Text="Geef een naam: " VerticalTextAlignment="Center"></Label>
+            <Entry Text="{Binding Naam}"></Entry>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Spacing="10">
+            <Label Text="Geef een getal: " VerticalTextAlignment="Center"></Label>
+            <Entry Text="{Binding Getal}"></Entry>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Spacing="10">
+            <Button Text="Naam tonen" Command="{Binding NaamTonenCommand}" WidthRequest="200"></Button>
+            <Button Text="Resultaat leegmaken" Command="{Binding ResultaatLeegmakenCommand}" WidthRequest="200"></Button>
+        </HorizontalStackLayout>
+        <Label Text="{Binding Resultaat, StringFormat='Resultaat: {0}'}"></Label>
+    </VerticalStackLayout>
+    
+</ContentPage>

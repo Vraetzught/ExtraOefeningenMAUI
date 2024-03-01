@@ -1,0 +1,364 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ExtraOefeningen</name>
+    </assembly>
+    <members>
+        <member name="T:ExtraOefeningen.ViewModels.AfbeeldingViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.AfbeeldingViewModel.Getal">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.AfbeeldingViewModel.getal"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.AfbeeldingViewModel.Afbeelding">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.AfbeeldingViewModel.afbeelding"/>
+        </member>
+        <member name="F:ExtraOefeningen.ViewModels.AfbeeldingViewModel.toonAfbeeldingCommand">
+            <summary>The backing field for <see cref="P:ExtraOefeningen.ViewModels.AfbeeldingViewModel.ToonAfbeeldingCommand"/>.</summary>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.AfbeeldingViewModel.ToonAfbeeldingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ExtraOefeningen.ViewModels.AfbeeldingViewModel.ToonAfbeelding"/>.</summary>
+        </member>
+        <member name="T:ExtraOefeningen.ViewModels.BaseViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.BaseViewModel.Title">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.BaseViewModel.title"/>
+        </member>
+        <member name="T:ExtraOefeningen.ViewModels.FactuurViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.FactuurViewModel.Productnaam">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.FactuurViewModel.productnaam"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.FactuurViewModel.ProductPrijs">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.FactuurViewModel.productPrijs"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.FactuurViewModel.ProductAantal">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.FactuurViewModel.productAantal"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.FactuurViewModel.FactuurLijnen">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.FactuurViewModel.factuurLijnen"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.FactuurViewModel.Subtotaal">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.FactuurViewModel.subtotaal"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.FactuurViewModel.Btw">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.FactuurViewModel.btw"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.FactuurViewModel.EindTotaal">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.FactuurViewModel.eindTotaal"/>
+        </member>
+        <member name="F:ExtraOefeningen.ViewModels.FactuurViewModel.productToevoegenCommand">
+            <summary>The backing field for <see cref="P:ExtraOefeningen.ViewModels.FactuurViewModel.ProductToevoegenCommand"/>.</summary>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.FactuurViewModel.ProductToevoegenCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ExtraOefeningen.ViewModels.FactuurViewModel.ProductToevoegen"/>.</summary>
+        </member>
+        <member name="T:ExtraOefeningen.ViewModels.GameViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.GameViewModel.Game">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.GameViewModel.game"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.GameViewModel.Games">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.GameViewModel.games"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.GameViewModel.SelectedGame">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.GameViewModel.selectedGame"/>
+        </member>
+        <member name="F:ExtraOefeningen.ViewModels.GameViewModel.gameToevoegenCommand">
+            <summary>The backing field for <see cref="P:ExtraOefeningen.ViewModels.GameViewModel.GameToevoegenCommand"/>.</summary>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.GameViewModel.GameToevoegenCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ExtraOefeningen.ViewModels.GameViewModel.GameToevoegen"/>.</summary>
+        </member>
+        <member name="F:ExtraOefeningen.ViewModels.GameViewModel.veldenLeegmakenCommand">
+            <summary>The backing field for <see cref="P:ExtraOefeningen.ViewModels.GameViewModel.VeldenLeegmakenCommand"/>.</summary>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.GameViewModel.VeldenLeegmakenCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ExtraOefeningen.ViewModels.GameViewModel.VeldenLeegmaken"/>.</summary>
+        </member>
+        <member name="F:ExtraOefeningen.ViewModels.GameViewModel.copySelectedGameCommand">
+            <summary>The backing field for <see cref="P:ExtraOefeningen.ViewModels.GameViewModel.CopySelectedGameCommand"/>.</summary>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.GameViewModel.CopySelectedGameCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ExtraOefeningen.ViewModels.GameViewModel.CopySelectedGame"/>.</summary>
+        </member>
+        <member name="T:ExtraOefeningen.ViewModels.GetallenDoorgeven1ViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.GetallenDoorgeven1ViewModel.Getal1">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.GetallenDoorgeven1ViewModel.getal1"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.GetallenDoorgeven1ViewModel.Getal2">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.GetallenDoorgeven1ViewModel.getal2"/>
+        </member>
+        <member name="F:ExtraOefeningen.ViewModels.GetallenDoorgeven1ViewModel.doorgevenCommand">
+            <summary>The backing field for <see cref="P:ExtraOefeningen.ViewModels.GetallenDoorgeven1ViewModel.DoorgevenCommand"/>.</summary>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.GetallenDoorgeven1ViewModel.DoorgevenCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ExtraOefeningen.ViewModels.GetallenDoorgeven1ViewModel.Doorgeven"/>.</summary>
+        </member>
+        <member name="T:ExtraOefeningen.ViewModels.GetallenDoorgeven2ViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.GetallenDoorgeven2ViewModel.Result">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.GetallenDoorgeven2ViewModel.result"/>
+        </member>
+        <member name="T:ExtraOefeningen.ViewModels.GetallenRijViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.GetallenRijViewModel.Getal">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.GetallenRijViewModel.getal"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.GetallenRijViewModel.Kleinste">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.GetallenRijViewModel.kleinste"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.GetallenRijViewModel.Grootste">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.GetallenRijViewModel.grootste"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.GetallenRijViewModel.Rij">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.GetallenRijViewModel.rij"/>
+        </member>
+        <member name="F:ExtraOefeningen.ViewModels.GetallenRijViewModel.getalToevoegenCommand">
+            <summary>The backing field for <see cref="P:ExtraOefeningen.ViewModels.GetallenRijViewModel.GetalToevoegenCommand"/>.</summary>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.GetallenRijViewModel.GetalToevoegenCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ExtraOefeningen.ViewModels.GetallenRijViewModel.GetalToevoegen"/>.</summary>
+        </member>
+        <member name="F:ExtraOefeningen.ViewModels.GetallenRijViewModel.rijLeegmakenCommand">
+            <summary>The backing field for <see cref="P:ExtraOefeningen.ViewModels.GetallenRijViewModel.RijLeegmakenCommand"/>.</summary>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.GetallenRijViewModel.RijLeegmakenCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ExtraOefeningen.ViewModels.GetallenRijViewModel.RijLeegmaken"/>.</summary>
+        </member>
+        <member name="T:ExtraOefeningen.ViewModels.NaamTonenViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.NaamTonenViewModel.Naam">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.NaamTonenViewModel.naam"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.NaamTonenViewModel.Getal">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.NaamTonenViewModel.getal"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.NaamTonenViewModel.Resultaat">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.NaamTonenViewModel.resultaat"/>
+        </member>
+        <member name="F:ExtraOefeningen.ViewModels.NaamTonenViewModel.naamTonenCommand">
+            <summary>The backing field for <see cref="P:ExtraOefeningen.ViewModels.NaamTonenViewModel.NaamTonenCommand"/>.</summary>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.NaamTonenViewModel.NaamTonenCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ExtraOefeningen.ViewModels.NaamTonenViewModel.NaamTonen"/>.</summary>
+        </member>
+        <member name="F:ExtraOefeningen.ViewModels.NaamTonenViewModel.resultaatLeegmakenCommand">
+            <summary>The backing field for <see cref="P:ExtraOefeningen.ViewModels.NaamTonenViewModel.ResultaatLeegmakenCommand"/>.</summary>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.NaamTonenViewModel.ResultaatLeegmakenCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ExtraOefeningen.ViewModels.NaamTonenViewModel.ResultaatLeegmaken"/>.</summary>
+        </member>
+        <member name="T:ExtraOefeningen.ViewModels.PersonenTonenViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.PersonenTonenViewModel.Personen">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.PersonenTonenViewModel.personen"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.PersonenTonenViewModel.AverageAge">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.PersonenTonenViewModel.averageAge"/>
+        </member>
+        <member name="M:ExtraOefeningen.ViewModels.PersonenTonenViewModel.OnPersonenChanged(System.Collections.ObjectModel.ObservableCollection{ExtraOefeningen.Models.Persoon})">
+            <summary>Executes the logic for when <see cref="P:ExtraOefeningen.ViewModels.PersonenTonenViewModel.Personen"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:ExtraOefeningen.ViewModels.PersonenTonenViewModel.Personen"/> is changed.</remarks>
+        </member>
+        <member name="T:ExtraOefeningen.ViewModels.PersoonToevoegenViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.PersoonToevoegenViewModel.Personen">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.PersoonToevoegenViewModel.personen"/>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.PersoonToevoegenViewModel.NewPersoon">
+            <inheritdoc cref="F:ExtraOefeningen.ViewModels.PersoonToevoegenViewModel.newPersoon"/>
+        </member>
+        <member name="F:ExtraOefeningen.ViewModels.PersoonToevoegenViewModel.persoonToevoegenCommand">
+            <summary>The backing field for <see cref="P:ExtraOefeningen.ViewModels.PersoonToevoegenViewModel.PersoonToevoegenCommand"/>.</summary>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.PersoonToevoegenViewModel.PersoonToevoegenCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ExtraOefeningen.ViewModels.PersoonToevoegenViewModel.PersoonToevoegen"/>.</summary>
+        </member>
+        <member name="F:ExtraOefeningen.ViewModels.PersoonToevoegenViewModel.personenTonenCommand">
+            <summary>The backing field for <see cref="P:ExtraOefeningen.ViewModels.PersoonToevoegenViewModel.PersonenTonenCommand"/>.</summary>
+        </member>
+        <member name="P:ExtraOefeningen.ViewModels.PersoonToevoegenViewModel.PersonenTonenCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ExtraOefeningen.ViewModels.PersoonToevoegenViewModel.PersonenTonen"/>.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Getal">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Getal" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Afbeelding">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Afbeelding" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Productnaam">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Productnaam" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ProductPrijs">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ProductPrijs" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ProductAantal">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ProductAantal" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.FactuurLijnen">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "FactuurLijnen" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Subtotaal">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Subtotaal" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Btw">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Btw" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.EindTotaal">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "EindTotaal" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Game">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Game" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Games">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Games" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedGame">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedGame" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Getal1">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Getal1" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Getal2">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Getal2" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Result">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Result" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Kleinste">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Kleinste" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Grootste">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Grootste" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Rij">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Rij" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Naam">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Naam" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Resultaat">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Resultaat" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Personen">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Personen" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AverageAge">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AverageAge" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NewPersoon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NewPersoon" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Getal">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Getal" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Afbeelding">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Afbeelding" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Title">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Title" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Productnaam">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Productnaam" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ProductPrijs">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ProductPrijs" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ProductAantal">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ProductAantal" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.FactuurLijnen">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "FactuurLijnen" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Subtotaal">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Subtotaal" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Btw">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Btw" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.EindTotaal">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "EindTotaal" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Game">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Game" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Games">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Games" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedGame">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedGame" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Getal1">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Getal1" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Getal2">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Getal2" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Result">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Result" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Kleinste">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Kleinste" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Grootste">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Grootste" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Rij">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Rij" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Naam">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Naam" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Resultaat">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Resultaat" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Personen">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Personen" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AverageAge">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AverageAge" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NewPersoon">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NewPersoon" generated properties.</summary>
+        </member>
+    </members>
+</doc>
